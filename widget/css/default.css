@@ -61,7 +61,11 @@ a:hover,a:focus{color:#74777b;}
 	overflow: hidden;
 }
 .htmleaf-content {
+<<<<<<< HEAD
 	margin: 100px  auto;
+=======
+	margin: 80px  auto;
+>>>>>>> c29276941efdb30c582adafffafb3f91bb734a5e
 	font-size: 150%;
 	padding: 1em 0;
 }
