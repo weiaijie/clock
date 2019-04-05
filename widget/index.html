@@ -3,21 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<title>时钟</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/default.css">
 	<link rel="stylesheet" href="compiled/flipclock.css">
-
 	<script src="jquery.min.js"></script>
-
 	<script src="compiled/flipclock.js"></script>
+	<style>
+		body{
+			position:fixed;
+			width:100%;
+			height:100%;
+			display: flex;
+			align-content:center;
+			justify-content:center;
+		}
+		.htmleaf-content{
+			display: flex;
+			margin:0;
+			/* position:fixed;
+			width:100%;
+			height:100%;
+			margin:0;
+			padding:0; */
+		}
+		
+	</style>
 </head>
 <body>
 	<div class="htmleaf-content">
 		<div class="clock" style="margin:auto;"></div>
 	</div>
-	
 	<script type="text/javascript">
 		var clock;
 			$(document).ready(function() {
